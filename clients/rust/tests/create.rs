@@ -1,8 +1,8 @@
 #![cfg(feature = "test-sbf")]
 
 use borsh::BorshDeserialize;
-use mpl_project_name::{accounts::MyAccount, instructions::CreateBuilder};
 use solana_program_test::{tokio, ProgramTest};
+use solana_python::{accounts::MyAccount, instructions::CreateBuilder};
 use solana_sdk::{
     signature::{Keypair, Signer},
     transaction::Transaction,
@@ -10,7 +10,7 @@ use solana_sdk::{
 
 #[tokio::test]
 async fn create() {
-    let mut context = ProgramTest::new("mpl_project_name_program", mpl_project_name::ID, None)
+    let mut context = ProgramTest::new("solana_python_program", solana_python::ID, None)
         .start_with_context()
         .await;
 

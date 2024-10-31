@@ -7,5 +7,5 @@
 
 use solana_program::{pubkey, pubkey::Pubkey};
 
-/// `mpl_project_name` program ID.
-pub const MPL_PROJECT_NAME_ID: Pubkey = pubkey!("MyProgram1111111111111111111111111111111111");
+/// `solana_python` program ID.
+pub const SOLANA_PYTHON_ID: Pubkey = pubkey!("PYTHoNbHGKp2V1EL9ggCMrFvdT7b23EVU8DyDLfEXcC");

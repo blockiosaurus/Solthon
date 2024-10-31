@@ -5,6 +5,6 @@
 //! [https://github.com/metaplex-foundation/kinobi]
 //!
 
-pub(crate) mod mpl_project_name;
+pub(crate) mod solana_python;
 
-pub use self::mpl_project_name::MplProjectNameError;
+pub use self::solana_python::SolanaPythonError;

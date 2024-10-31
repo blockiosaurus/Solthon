@@ -1,6 +1,6 @@
-# Mpl Project Name
+# Solana Python
 
-My project description
+An onchain Python interpreter
 
 ## Building
 

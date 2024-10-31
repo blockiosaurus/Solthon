@@ -78,8 +78,8 @@ export function create(
 ): TransactionBuilder {
   // Program ID.
   const programId = context.programs.getPublicKey(
-    'mplProjectName',
-    'MyProgram1111111111111111111111111111111111'
+    'solanaPython',
+    'PYTHoNbHGKp2V1EL9ggCMrFvdT7b23EVU8DyDLfEXcC'
   );
 
   // Accounts.

@@ -1,6 +1,6 @@
-# Contributing to Mpl Project Name
+# Contributing to Solana Python
 
-This is a quick guide to help you contribute to Mpl Project Name.
+This is a quick guide to help you contribute to Solana Python.
 
 ## Getting started
 
